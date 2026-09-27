@@ -1,0 +1,14 @@
+{
+  "name": "ExcelUp AI - Skilling outcomes, measured honestly.",
+  "short_name": "ExcelUp AI",
+  "description": "Longitudinal skilling outcomes: consent-based outcome registry, one-tap follow-ups, employer validation, impact analytics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF9",
+  "theme_color": "#1E3A8A",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

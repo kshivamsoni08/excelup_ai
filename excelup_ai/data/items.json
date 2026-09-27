@@ -1,0 +1,86 @@
+[
+  {"skill": "Battery Diagnostics", "items": [
+    {"stem": "A healthy lithium-ion EV battery cell at rest should read roughly:", "options": ["3.6-3.7 V per cell", "1.2 V per cell", "12 V per cell", "0.9 V per cell"], "correct_idx": 0, "a": 1.0, "b": -1.3},
+    {"stem": "Cell balancing in a battery pack exists to:", "options": ["Equalize state-of-charge across series cells", "Increase pack voltage beyond rating", "Cool the motor during regen", "Convert AC to DC"], "correct_idx": 0, "a": 1.1, "b": -0.8},
+    {"stem": "A cell whose voltage sags sharply under load most likely has:", "options": ["High internal resistance", "Low charger current", "Excess coolant", "A loose BMS data cable"], "correct_idx": 0, "a": 1.3, "b": 0.1},
+    {"stem": "Insulation resistance testing on a high-voltage pack is done to detect:", "options": ["Leakage current paths to chassis", "Cell capacity fade", "Coolant level", "Charger efficiency"], "correct_idx": 0, "a": 1.4, "b": 0.4},
+    {"stem": "State of Health (SoH) of a battery compares:", "options": ["Current full capacity to rated capacity", "Voltage to temperature", "Charge cycles to warranty", "Weight to volume"], "correct_idx": 0, "a": 1.2, "b": -0.3},
+    {"stem": "Before servicing a traction battery, the first step is:", "options": ["De-energize and verify zero voltage with a meter", "Remove the cooling plates", "Drain the pack", "Charge to 100%"], "correct_idx": 0, "a": 1.5, "b": 0.7},
+    {"stem": "Coulomb counting in a BMS estimates:", "options": ["State of Charge by integrating current over time", "Cell temperature", "Motor torque", "Charger ripple"], "correct_idx": 0, "a": 1.6, "b": 1.0},
+    {"stem": "A swollen pouch cell should be:", "options": ["Quarantined and replaced, never charged", "Recharged slowly", "Pressed flat and reused", "Washed with water"], "correct_idx": 0, "a": 1.4, "b": 0.8},
+    {"stem": "Which tool measures a pack's internal resistance non-destructively?", "options": ["AC impedance meter (1 kHz)", "Hydrometer", "Clamp meter on DC bus at rest", "Torque wrench"], "correct_idx": 0, "a": 1.7, "b": 1.2},
+    {"stem": "For fleet warranty claims, the most defensible battery evidence is:", "options": ["Logged SoC/SoH history from the BMS", "A driver's verbal report", "Charger LED colour", "Odometer alone"], "correct_idx": 0, "a": 1.5, "b": 1.4}
+  ]},
+  {"skill": "Solar PV Installation", "items": [
+    {"stem": "Rooftop PV modules are typically tilted to:", "options": ["Maximize annual insolation for the site latitude", "Follow the owner's roof colour", "Reduce wiring length only", "Avoid any shading at noon in December"], "correct_idx": 0, "a": 1.0, "b": -1.2},
+    {"stem": "A string inverter's MPPT function:", "options": ["Tracks the voltage-current point of maximum power", "Stores excess energy", "Converts DC to DC only", "Meters export energy"], "correct_idx": 0, "a": 1.2, "b": -0.6},
+    {"stem": "Before mounting modules, the structural check must confirm:", "options": ["Roof can carry dead + wind load", "Inverter firmware version", "Net metering approval", "Module serial numbers"], "correct_idx": 0, "a": 1.3, "b": 0.0},
+    {"stem": "Series-connecting modules raises:", "options": ["String voltage", "Only current", "Only weight", "Only cost"], "correct_idx": 0, "a": 1.1, "b": -0.9},
+    {"stem": "Earthing of the PV array protects primarily against:", "options": ["Lightning and fault currents", "Dust", "PID only", "Bird droppings"], "correct_idx": 0, "a": 1.4, "b": 0.3},
+    {"stem": "A hot spot on a module (thermal image) usually indicates:", "options": ["A shaded or faulty cell dissipating power", "High irradiance", "Cold weather", "Low humidity"], "correct_idx": 0, "a": 1.5, "b": 0.6},
+    {"stem": "For a 5 kW system at 4.5 kWh/kWp/day average, expected monthly generation is about:", "options": ["675 kWh", "225 kWh", "1500 kWh", "60 kWh"], "correct_idx": 0, "a": 1.3, "b": 0.2},
+    {"stem": "The safest way to confirm a DC string is live is:", "options": ["Measure DC voltage with a CAT III meter", "Touch the connectors", "Watch the inverter LEDs", "Listen for hum"], "correct_idx": 0, "a": 1.6, "b": 0.9},
+    {"stem": "Partial shading of one cell in a series string:", "options": ["Can cut output disproportionately and heat the cell", "Has no effect", "Improves MPPT", "Only affects inverters"], "correct_idx": 0, "a": 1.4, "b": 0.5},
+    {"stem": "Net metering credits the consumer for:", "options": ["Energy exported to the grid", "Energy generated but self-consumed", "Panel area", "Inverter capacity"], "correct_idx": 0, "a": 1.2, "b": -0.1}
+  ]},
+  {"skill": "CNC Machining", "items": [
+    {"stem": "G01 in a CNC program commands:", "options": ["Linear interpolation at feed rate", "Rapid positioning", "Program stop", "Spindle on"], "correct_idx": 0, "a": 1.0, "b": -1.2},
+    {"stem": "Tool wear on a lathe typically shows as:", "options": ["Rising cutting forces and size drift", "Lower spindle temperature", "Cleaner surface finish", "Faster cycle time"], "correct_idx": 0, "a": 1.3, "b": 0.1},
+    {"stem": "SFM (surface feet per minute) relates to:", "options": ["Cutting speed at the tool edge", "Table feed", "Rapid traverse", "Coolant flow"], "correct_idx": 0, "a": 1.2, "b": -0.7},
+    {"stem": "A work coordinate system (WCS) defines:", "options": ["Where X0 Y0 Z0 sits for the program", "The tool magazine layout", "Spindle RPM limit", "Coolant type"], "correct_idx": 0, "a": 1.4, "b": 0.3},
+    {"stem": "Climb milling versus conventional milling differs in:", "options": ["Cutter rotation direction relative to feed", "Tool material", "Coolant brand", "Spindle taper"], "correct_idx": 0, "a": 1.5, "b": 0.6},
+    {"stem": "A bored hole is oversize on first article. First check:", "options": ["Tool offset and wear compensation", "Program name", "Shop temperature log", "Coolant colour"], "correct_idx": 0, "a": 1.6, "b": 0.8},
+    {"stem": "Chatter marks on a turned surface indicate:", "options": ["Insufficient rigidity or wrong speed/feed", "Correct machining", "Excess coolant", "Worn way covers"], "correct_idx": 0, "a": 1.4, "b": 0.5},
+    {"stem": "The purpose of a tool length offset is to:", "options": ["Compensate for differing tool lengths from gauge line", "Change spindle gear", "Time the cycle", "Set chuck pressure"], "correct_idx": 0, "a": 1.2, "b": -0.2},
+    {"stem": "First-article inspection happens:", "options": ["After setup, before the full batch runs", "After shipping", "Only on rejection", "During tool change only"], "correct_idx": 0, "a": 1.1, "b": -0.4},
+    {"stem": "For hard materials, feed per revolution is usually:", "options": ["Reduced", "Doubled", "Unchanged", "Irrelevant"], "correct_idx": 0, "a": 1.3, "b": 0.4}
+  ]},
+  {"skill": "IT Support Basics", "items": [
+    {"stem": "A user cannot reach any website but the network icon shows connected. First check:", "options": ["DNS resolution", "Power supply wattage", "RAM speed", "Monitor cable"], "correct_idx": 0, "a": 1.0, "b": -1.2},
+    {"stem": "Safe Mode is primarily used to:", "options": ["Boot with minimal drivers to isolate faults", "Speed up gaming", "Encrypt the disk", "Update BIOS only"], "correct_idx": 0, "a": 1.1, "b": -0.8},
+    {"stem": "The command to view a PC's IP configuration on Windows is:", "options": ["ipconfig", "ping", "netstat", "tracert"], "correct_idx": 0, "a": 1.0, "b": -1.0},
+    {"stem": "A ticket's 'impact x urgency' determines:", "options": ["Its priority", "Its length", "Its category", "Its SLA vendor"], "correct_idx": 0, "a": 1.3, "b": 0.0},
+    {"stem": "Replacing a failed PSU requires first:", "options": ["Disconnecting AC power and ESD precautions", "Formatting the OS", "Removing all RAM", "Updating drivers"], "correct_idx": 0, "a": 1.4, "b": 0.4},
+    {"stem": "Which is the correct order of troubleshooting?", "options": ["Identify problem, establish theory, test, implement, verify", "Reinstall OS, then diagnose", "Replace parts, then ask the user", "Escalate first, gather facts later"], "correct_idx": 0, "a": 1.5, "b": 0.6},
+    {"stem": "Ping 127.0.0.1 tests:", "options": ["The local TCP/IP stack", "The default gateway", "DNS servers", "The printer"], "correct_idx": 0, "a": 1.2, "b": -0.3},
+    {"stem": "User data before a reload should be:", "options": ["Backed up and verified", "Deleted", "Zipped to desktop only", "Emailed to the whole office"], "correct_idx": 0, "a": 1.3, "b": 0.2},
+    {"stem": "Raid 1 provides:", "options": ["Mirroring for redundancy", "Striping only", "Parity across 5 disks", "Backup to cloud"], "correct_idx": 0, "a": 1.6, "b": 0.9},
+    {"stem": "A good KB article for a recurring issue includes:", "options": ["Symptoms, cause, resolution steps, verification", "Only the fix command", "Screenshots of the ticket queue", "The user's name and phone"], "correct_idx": 0, "a": 1.7, "b": 1.2}
+  ]},
+  {"skill": "Welding Fundamentals", "items": [
+    {"stem": "Arc welding joins metals using:", "options": ["An electric arc's heat", "Adhesive tape", "Acoustic vibration", "Solar heat"], "correct_idx": 0, "a": 1.0, "b": -1.3},
+    {"stem": "Flux in stick electrode coating exists to:", "options": ["Shield the weld pool from atmosphere", "Colour the bead", "Cool the torch", "Increase amperage"], "correct_idx": 0, "a": 1.2, "b": -0.7},
+    {"stem": "Porosity in a finished weld most often results from:", "options": ["Contamination or inadequate shielding", "Too much filler", "Low ambient noise", "Bright shop lights"], "correct_idx": 0, "a": 1.3, "b": 0.0},
+    {"stem": "Undercut along a weld toe is:", "options": ["A groove melted into the base metal", "Extra reinforcement", "A cleaning method", "A joint type"], "correct_idx": 0, "a": 1.4, "b": 0.3},
+    {"stem": "Before welding galvanized steel, one must:", "options": ["Grind the coating and ventilate fumes", "Paint over it", "Weld faster only", "Add water"], "correct_idx": 0, "a": 1.5, "b": 0.5},
+    {"stem": "Distortion in thin sheet welding is minimized by:", "options": ["Skip welding and fixtures", "Maximum amperage throughout", "One long continuous bead", "No tacking"], "correct_idx": 0, "a": 1.4, "b": 0.7},
+    {"stem": "The welding position '3G' refers to:", "options": ["Vertical groove weld", "Flat groove weld", "Overhead fillet", "Pipe at 45 degrees"], "correct_idx": 0, "a": 1.6, "b": 0.9},
+    {"stem": "PPE for arc welding includes:", "options": ["Auto-darkening helmet, gloves, leathers", "Dust mask only", "Safety glasses alone", "Cotton gloves"], "correct_idx": 0, "a": 1.1, "b": -0.5},
+    {"stem": "A crack in a weld is:", "options": ["Always a rejectable discontinuity", "Cosmetic only", "A sign of good fusion", "Acceptable if painted"], "correct_idx": 0, "a": 1.5, "b": 1.0},
+    {"stem": "Selecting electrode diameter depends mainly on:", "options": ["Base metal thickness and joint", "Electrode brand colour", "Day of the week", "Arc voltage meter"], "correct_idx": 0, "a": 1.2, "b": -0.2}
+  ]},
+  {"skill": "Communication", "items": [
+    {"stem": "A colleague explains a task; to confirm understanding you should:", "options": ["Paraphrase back the key points and confirm", "Nod and leave", "Repeat word for word", "Reply with emojis"], "correct_idx": 0, "a": 1.0, "b": -1.4},
+    {"stem": "In a client call you realize you don't know an answer. Best response:", "options": ["Acknowledge it and commit to a follow-up time", "Guess confidently", "Stay silent", "Blame a colleague"], "correct_idx": 0, "a": 1.2, "b": -0.6},
+    {"stem": "An email to a supervisor should open with:", "options": ["A clear subject and the ask in the first line", "A long greeting", "An apology", "Attachments only"], "correct_idx": 0, "a": 1.1, "b": -0.9},
+    {"stem": "A teammate repeatedly misses handoffs. The professional first step:", "options": ["Discuss privately, focusing on facts and impact", "Complain publicly", "Copy the CEO", "Do nothing"], "correct_idx": 0, "a": 1.3, "b": 0.0},
+    {"stem": "'I noticed the report was late twice; can we fix the process?' is better than 'You are lazy' because it:", "options": ["Addresses behaviour, not person", "Sounds fancier", "Is shorter", "Avoids all emotion"], "correct_idx": 0, "a": 1.4, "b": 0.4},
+    {"stem": "While explaining a technical issue to a non-technical customer, you should:", "options": ["Use an analogy and check understanding", "Use jargon to impress", "Speak faster", "Avoid all detail"], "correct_idx": 0, "a": 1.2, "b": -0.3},
+    {"stem": "Active listening includes:", "options": ["Not interrupting and asking clarifying questions", "Planning your reply while they speak", "Looking at your phone", "Finishing their sentences"], "correct_idx": 0, "a": 1.3, "b": 0.2},
+    {"stem": "Your message was misunderstood. The best repair:", "options": ["Restate in simpler words and confirm", "Repeat louder", "Blame the reader", "Send the same text again"], "correct_idx": 0, "a": 1.5, "b": 0.6},
+    {"stem": "In group conflict, a mediator should first:", "options": ["Let each side state interests without interruption", "Pick the senior person's side", "Escalate to HR instantly", "Impose a solution"], "correct_idx": 0, "a": 1.6, "b": 0.9},
+    {"stem": "The clearest way to report task status weekly is:", "options": ["Done / In progress / Blocked with dates", "A long story", "One word updates", "Only flag problems"], "correct_idx": 0, "a": 1.4, "b": 0.7}
+  ]},
+  {"skill": "Aptitude", "items": [
+    {"stem": "If 3 workers finish a job in 12 days, 6 workers (same rate) finish in:", "options": ["6 days", "24 days", "12 days", "3 days"], "correct_idx": 0, "a": 1.0, "b": -1.3},
+    {"stem": "A shop raises a price by 20% then offers 20% off. Final price versus original:", "options": ["4% lower", "Same", "4% higher", "20% higher"], "correct_idx": 0, "a": 1.2, "b": -0.5},
+    {"stem": "Next in the series 2, 6, 12, 20, 30, ...:", "options": ["42", "40", "36", "44"], "correct_idx": 0, "a": 1.3, "b": 0.0},
+    {"stem": "A train 150 m long crosses a pole in 15 s. Speed is:", "options": ["36 km/h", "10 km/h", "90 km/h", "15 km/h"], "correct_idx": 0, "a": 1.2, "b": -0.8},
+    {"stem": "If ALL roses are flowers and some flowers fade quickly, then:", "options": ["Some roses may fade quickly - cannot be concluded certainly", "All roses fade", "No roses fade", "All flowers are roses"], "correct_idx": 0, "a": 1.4, "b": 0.3},
+    {"stem": "Average of 5 numbers is 18; removing 10 makes the average:", "options": ["20", "16", "18", "19"], "correct_idx": 0, "a": 1.3, "b": 0.2},
+    {"stem": "A 25% discount on 800 plus 10% tax on the discounted price gives:", "options": ["660", "600", "688", "640"], "correct_idx": 0, "a": 1.5, "b": 0.5},
+    {"stem": "Odd one out: 121, 144, 169, 200", "options": ["200", "121", "144", "169"], "correct_idx": 0, "a": 1.4, "b": 0.4},
+    {"stem": "A tank fills in 6 h; the drain empties in 9 h. Both open, fill time is:", "options": ["18 h", "3 h", "15 h", "7.5 h"], "correct_idx": 0, "a": 1.6, "b": 0.8},
+    {"stem": "The probability of two heads in two fair coin tosses is:", "options": ["1/4", "1/2", "1/3", "3/4"], "correct_idx": 0, "a": 1.1, "b": -0.6}
+  ]}
+]

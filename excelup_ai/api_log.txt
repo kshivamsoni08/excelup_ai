@@ -1,0 +1,212 @@
+INFO:     Started server process [10168]
+INFO:     Waiting for application startup.
+INFO:skillsetu:DB warm-up complete (pgvector ready, schema current)
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "_keep_warm" to job store "default"
+INFO:apscheduler.scheduler:Added job "_nightly_decay_job" to job store "default"
+INFO:apscheduler.scheduler:Added job "_daily_followup_job" to job store "default"
+INFO:apscheduler.scheduler:Added job "_nightly_decay_job" to job store "default"
+INFO:apscheduler.scheduler:Added job "_daily_followup_job" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:skillsetu:APScheduler started (keep-warm 4min, nightly decay, daily follow-up waves)
+INFO:apscheduler.scheduler:Removed job boot_decay
+INFO:apscheduler.scheduler:Removed job boot_followups
+INFO:     Application startup complete.
+INFO:apscheduler.executors.default:Running job "_nightly_decay_job (trigger: date[2026-09-26 21:21:02 UTC], next run at: 2026-09-26 21:21:02 UTC)" (scheduled at 2026-09-26 21:21:02.295730+00:00)
+INFO:apscheduler.executors.default:Running job "_daily_followup_job (trigger: date[2026-09-26 21:21:02 UTC], next run at: 2026-09-26 21:21:02 UTC)" (scheduled at 2026-09-26 21:21:02.297053+00:00)
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:skillsetu:Daily follow-up job: 0 scheduled waves created
+INFO:apscheduler.executors.default:Job "_daily_followup_job (trigger: date[2026-09-26 21:21:02 UTC], next run at: 2026-09-26 21:21:02 UTC)" executed successfully
+INFO:     127.0.0.1:64306 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64307 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55624 - "GET /notifications HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 02:59:02 IST)" (scheduled at 2026-09-27 02:55:02.288030+05:30)
+INFO:apscheduler.executors.default:Job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 02:59:02 IST)" executed successfully
+INFO:     127.0.0.1:61066 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61066 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61066 - "OPTIONS /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59173 - "OPTIONS /feed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61066 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59173 - "GET /feed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64454 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64454 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61932 - "OPTIONS /officer/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61230 - "OPTIONS /officer/programmes?view=outcomes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55910 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60131 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59805 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61932 - "GET /officer/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61932 - "GET /notifications HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:03:02 IST)" (scheduled at 2026-09-27 02:59:02.288030+05:30)
+INFO:apscheduler.executors.default:Job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:03:02 IST)" executed successfully
+INFO:     127.0.0.1:63638 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61230 - "GET /officer/programmes?view=outcomes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63638 - "OPTIONS /officer/programmes?view=day0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65247 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63688 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50930 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61230 - "GET /officer/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "OPTIONS /officer/districts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63219 - "OPTIONS /officer/demographics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61230 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "GET /officer/districts HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\applications.py", line 1163, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 149, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 706, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 352, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\app\routers\officer.py", line 53, in districts
+    return await outcome_svc.district_heatmap(session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\app\services\outcomes.py", line 546, in district_heatmap
+    select(EmploymentEpisode, Company, District)
+                                       ^^^^^^^^
+NameError: name 'District' is not defined
+INFO:     127.0.0.1:61230 - "GET /officer/districts HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\applications.py", line 1163, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 149, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 706, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\.venv\Lib\site-packages\fastapi\routing.py", line 352, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\app\routers\officer.py", line 53, in districts
+    return await outcome_svc.district_heatmap(session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek prasad\Downloads\skillsetu\backend\app\services\outcomes.py", line 546, in district_heatmap
+    select(EmploymentEpisode, Company, District)
+                                       ^^^^^^^^
+NameError: name 'District' is not defined
+INFO:     127.0.0.1:63219 - "GET /officer/demographics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58722 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58722 - "OPTIONS /provider/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63638 - "GET /officer/programmes?view=day0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62813 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51003 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65108 - "GET /notifications HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:07:02 IST)" (scheduled at 2026-09-27 03:03:02.288030+05:30)
+INFO:apscheduler.executors.default:Job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:07:02 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:11:02 IST)" (scheduled at 2026-09-27 03:07:02.288030+05:30)
+INFO:apscheduler.executors.default:Job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:11:02 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:15:02 IST)" (scheduled at 2026-09-27 03:11:02.288030+05:30)
+INFO:apscheduler.executors.default:Job "_keep_warm (trigger: interval[0:04:00], next run at: 2026-09-27 03:15:02 IST)" executed successfully
+INFO:     127.0.0.1:63444 - "OPTIONS /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63444 - "GET /notifications HTTP/1.1" 200 OK

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fafaf9;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #1c1917;
+  font-feature-settings: "cv02", "cv03", "cv04";
+}
+
+.card {
+  @apply rounded-xl border border-stone-200 bg-white shadow-sm;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+.btn-primary {
+  @apply btn bg-primary-900 text-white hover:bg-primary-800;
+}
+.btn-saffron {
+  @apply btn bg-saffron-500 text-white hover:bg-saffron-600;
+}
+.btn-outline {
+  @apply btn border border-stone-300 bg-white text-stone-800 hover:bg-stone-50;
+}
+.btn-ghost {
+  @apply btn text-stone-600 hover:bg-stone-100;
+}
+
+.input {
+  @apply w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm outline-none focus:border-primary-600 focus:ring-2 focus:ring-primary-100;
+}
+
+.badge {
+  @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium;
+}
+.badge-green {
+  @apply badge bg-primary-100 text-primary-800;
+}
+.badge-amber {
+  @apply badge bg-saffron-100 text-saffron-700;
+}
+.badge-gray {
+  @apply badge bg-stone-100 text-stone-600;
+}
+.badge-red {
+  @apply badge bg-red-100 text-red-700;
+}
+
+.label {
+  @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-stone-500;
+}

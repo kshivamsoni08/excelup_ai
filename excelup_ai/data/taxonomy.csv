@@ -1,0 +1,194 @@
+name,domain,nsqf_level,half_life_class,synonyms
+Engine Basics,Auto & EV,3,stable,Internal Combustion Engine Basics|IC Engine Fundamentals
+EV Powertrain,Auto & EV,4,volatile,Electric Vehicle Powertrain|EV Drivetrain
+Battery Diagnostics,Auto & EV,4,volatile,Battery Testing|EV Battery Testing|Battery Health Check
+Battery Pack Assembly,Auto & EV,4,moderate,Battery Pack Manufacturing|Cell Assembly
+BMS Fundamentals,Auto & EV,4,volatile,Battery Management System|BMS Basics
+EV Charging Installation,Auto & EV,4,moderate,EV Charger Installation|Charging Station Setup
+Motor Winding,Auto & EV,3,stable,Electric Motor Winding|Armature Winding
+Vehicle Diagnostics,Auto & EV,4,moderate,OBD Diagnostics|Automotive Diagnostics
+Automotive Electricals,Auto & EV,3,stable,Auto Electrical Systems|Vehicle Wiring
+Assembly Line Operations,Manufacturing,3,stable,Production Line Operations|Line Assembly
+CNC Machining,Manufacturing,4,moderate,CNC Machine Operation|CNC Milling
+CNC Programming,Manufacturing,4,volatile,G-Code Programming|CNC Part Programming
+Welding Fundamentals,Manufacturing,3,stable,Welding Basics|Arc Welding Basics
+MIG Welding,Manufacturing,4,moderate,Metal Inert Gas Welding|GMAW
+TIG Welding,Manufacturing,4,moderate,Tungsten Inert Gas Welding|GTAW
+Welding Inspection,Manufacturing,4,moderate,Weld Quality Inspection|Visual Weld Inspection
+Fitting & Measurement,Manufacturing,3,stable,Fitter Trade Skills|Precision Measurement
+Lathe Operations,Manufacturing,3,stable,Turning Operations|Lathe Machining
+Metrology,Manufacturing,4,stable,Industrial Measurement|Dimensional Metrology
+Hydraulics & Pneumatics,Manufacturing,4,moderate,Fluid Power Systems|Hydraulic Systems
+Industrial Safety,Manufacturing,3,stable,Workplace Safety|Factory Safety
+Tool & Die Making,Manufacturing,4,stable,Tool Making|Die Maintenance
+Sheet Metal Work,Manufacturing,3,stable,Fabrication|Sheet Metal Fabrication
+Quality Control,Manufacturing,4,stable,QC|Quality Assurance Basics
+Six Sigma Basics,Manufacturing,4,moderate,Lean Six Sigma Yellow Belt|Process Improvement
+Preventive Maintenance,Manufacturing,3,stable,Equipment Maintenance|Machine Maintenance
+Industrial Documentation,Manufacturing,3,stable,Shop Floor Documentation|Work Instructions
+Solar PV Installation,Solar & Renewables,4,moderate,Solar Panel Installation|PV Module Installation
+Solar Site Survey,Solar & Renewables,3,moderate,Site Assessment|Solar Site Assessment
+PV System Design,Solar & Renewables,4,moderate,Solar Design|Rooftop PV Design
+Solar Inverter Basics,Solar & Renewables,4,volatile,Inverter Installation|PCU Basics
+Net Metering Compliance,Solar & Renewables,3,moderate,Net Metering Rules|Grid Connection Rules
+Wind Turbine Maintenance,Solar & Renewables,4,moderate,Turbine O&M|Wind Mill Maintenance
+Electrical Wiring,Electrical,3,stable,House Wiring|Domestic Wiring
+Panel Wiring,Electrical,4,moderate,Control Panel Wiring|HT Panel Wiring
+Transformer Maintenance,Electrical,4,moderate,Distribution Transformer O&M
+Industrial Electrician Skills,Electrical,4,stable,Industrial Wiring|Motor Control Circuits
+Energy Auditing,Electrical,4,moderate,Energy Audit|Energy Efficiency Assessment
+PLCS & SCADA Basics,Electrical,4,volatile,PLC Programming|SCADA Fundamentals
+Textile Machine Operation,Textiles,3,stable,Power Loom Operation|Weaving Machine Operation
+Fabric Quality Checking,Textiles,3,stable,Fabric Inspection|Textile QC
+Dyeing Techniques,Textiles,4,moderate,Dye House Operations|Fabric Dyeing
+Printing Techniques,Textiles,4,moderate,Textile Printing|Block Printing
+Garment Stitching,Textiles,3,stable,Sewing|Tailoring
+Pattern Making,Textiles,4,moderate,Apparel Pattern Making|Drafting
+Textile Testing,Textiles,4,moderate,Fabric Testing|Lab Testing of Textiles
+Knitting Operations,Textiles,3,stable,Hosiery Machine Operation
+Warehouse Operations,Logistics,3,stable,Warehousing|Store Keeping
+Inventory Management,Logistics,4,moderate,Stock Management|Materials Management
+Forklift Operation,Logistics,3,stable,Material Handling Equipment
+Supply Chain Basics,Logistics,4,moderate,Supply Chain Fundamentals|SCM Basics
+Last-Mile Delivery,Logistics,3,stable,Delivery Operations|Courier Operations
+Customs Documentation,Logistics,4,moderate,EXIM Documentation|Shipping Bill Processing
+Port Operations,Logistics,4,stable,Dock Operations|JNPT Operations
+Transport Fleet Coordination,Logistics,4,moderate,Dispatch Coordination|Fleet Management
+IT Support Basics,IT-ITeS,4,moderate,Desktop Support|Helpdesk Support
+Hardware Troubleshooting,IT-ITeS,4,moderate,PC Repair|Computer Hardware
+Networking Fundamentals,IT-ITeS,4,moderate,Computer Networks|LAN WAN Basics
+Operating System Administration,IT-ITeS,4,moderate,System Admin|Windows Linux Administration
+Cybersecurity Hygiene,IT-ITeS,4,volatile,Information Security Basics|Cyber Safety
+Data Entry Operations,IT-ITeS,3,stable,Computer Typing|Data Processing
+Customer Support (Voice),IT-ITeS,3,stable,Call Center Operations|Voice Process
+CRM Software Usage,IT-ITeS,3,moderate,Customer Relationship Management Tools
+Excel for Business,IT-ITeS,4,stable,Spreadsheet Skills|MS Excel
+Python,IT-ITeS,5,volatile,Python Programming|Python Scripting
+Web Development Basics,IT-ITeS,4,volatile,HTML CSS JavaScript|Frontend Basics
+Retail Sales Associate,Retail,3,stable,Store Sales|Counter Sales
+Visual Merchandising,Retail,4,moderate,Store Display|Merchandising
+Billing & POS Operations,Retail,3,stable,Point of Sale Operations|Cash Counter
+Customer Service,Retail,3,stable,Customer Handling|Service Excellence
+Category Management,Retail,4,moderate,Retail Buying|Assortment Planning
+Beauty Therapy,Beauty & Wellness,3,stable,Facial Treatments|Skin Care Basics
+Hair Styling,Beauty & Wellness,3,stable,Hairdressing|Hair Cutting
+Salon Management,Beauty & Wellness,4,moderate,Beauty Parlour Management|Salon Operations
+Massage Therapy,Beauty & Wellness,3,stable,Body Massage|Swedish Massage
+Spa Operations,Beauty & Wellness,4,moderate,Wellness Center Operations|Spa Management
+Yoga Instruction,Beauty & Wellness,4,stable,Yoga Training|Yoga Teaching
+Fitness Training,Beauty & Wellness,4,moderate,Gym Instruction|Personal Training
+Nutrition & Diet Basics,Beauty & Wellness,4,stable,Dietetics Basics|Nutrition Counseling
+Client Assessment,Beauty & Wellness,3,stable,Client Consultation|Needs Assessment
+Entrepreneurship,General,4,stable,Self-Employment Skills|Business Setup
+Business Planning,General,4,stable,Business Model Planning|Venture Planning
+Financial Accounting Basics,General,4,stable,Bookkeeping|Accounts Maintenance
+Digital Marketing,General,4,volatile,Online Marketing|Social Media Marketing
+GST & Compliance Basics,General,3,stable,GST Filing|Tax Compliance Basics
+Market Linkage & Selling,General,3,stable,Market Access|Sales Outreach
+Communication,General,4,stable,Communication Skills|Verbal Communication
+Workplace Communication,General,3,stable,Professional Communication|Office Communication
+Interview Preparation,General,3,stable,Job Interview Skills
+Resume Building,General,3,stable,CV Writing|Profile Building
+Teamwork,General,3,stable,Collaboration|Interpersonal Skills
+Time Management,General,3,stable,Prioritization|Personal Productivity
+Documentation,General,3,stable,Report Writing|Records Management
+Data Analysis,General,4,moderate,Data Interpretation|Analytics Basics
+Aptitude,General,3,stable,Quantitative Aptitude|Reasoning
+Financial Literacy,General,3,stable,Money Management Basics|Budgeting
+Healthcare Assistant Skills,Healthcare,4,stable,Patient Care Assistance|Bedside Care
+Pharmacy Assistant Skills,Healthcare,4,stable,Dispensing Assistance|Medical Store Operations
+Home Health Aide,Healthcare,3,stable,Caregiving|Elder Care
+Medical Records Management,Healthcare,4,moderate,Hospital Records|EMR Data Entry
+Phlebotomy Basics,Healthcare,4,moderate,Blood Sample Collection|Blood Drawing
+Medical Laboratory Basics,Healthcare,4,moderate,Lab Assistant Skills|Sample Processing
+Anm Nursing Skills,Healthcare,4,stable,Auxiliary Nursing|Community Nursing
+First Aid & BLS,Healthcare,3,stable,Basic Life Support|Emergency Care
+Agri-Input Advisory,Agriculture & Allied,3,stable,Agri Advisory Services|Farm Input Sales
+Greenhouse Operations,Agriculture & Allied,4,moderate,Polyhouse Farming|Protected Cultivation
+Dairy Operations,Agriculture & Allied,3,stable,Milk Handling|Dairy Farm Operations
+Food Processing Basics,Agriculture & Allied,4,stable,Food Technology Basics|FSSAI Basics
+Food Quality Testing,Agriculture & Allied,4,moderate,Food Lab Testing|Contaminant Testing
+Packaged Food Production,Agriculture & Allied,3,stable,Food Pack House|Packaging Operations
+Nursery Management,Agriculture & Allied,3,stable,Plant Nursery Operations|Horticulture Nursery
+Organic Farming Practices,Agriculture & Allied,3,stable,Organic Certification Basics|Natural Farming
+Cold Chain Handling,Agriculture & Allied,4,moderate,Cold Storage Operations|Reefer Handling
+Poultry Operations,Agriculture & Allied,3,stable,Poultry Farming|Bird Husbandry
+Fisheries Operations,Agriculture & Allied,3,stable,Aquaculture|Fish Farming
+Drone Operation (Agri),Agriculture & Allied,4,volatile,Agricultural Drone Piloting|Kisan Drone
+Construction Masonry,Construction,3,stable,Brick Masonry|RCC Masonry
+Bar Bending & Steel Fixing,Construction,3,stable,Steel Fixing|Reinforcement Work
+Shuttering Carpentry,Construction,3,stable,Formwork Carpentry|Centering
+Plumbing & Sanitation,Construction,4,stable,Pipe Fitting|Sanitary Fitting
+Land Surveying Basics,Construction,4,moderate,Surveying|Total Station Operation
+Site Supervision,Construction,4,moderate,Construction Site Management|Site Engineering Assistance
+Painting & Waterproofing,Construction,3,stable,Surface Painting|Waterproofing Application
+Tile & Marble Fixing,Construction,3,stable,Flooring Work|Tiling
+HVAC Installation,Construction,4,moderate,Air Conditioner Installation|AC Repair
+Fire Safety Systems,Construction,4,moderate,Fire Alarm Installation|Fire Systems Maintenance
+Domestic Data Voice Cabling,Construction,3,stable,Structured Cabling|LAN Cabling
+Tourism Operations,Tourism & Hospitality,3,stable,Tour Operator Assistance|Travel Desk Operations
+Front Office Operations,Tourism & Hospitality,3,stable,Hotel Reception|Front Desk Management
+Food & Beverage Service,Tourism & Hospitality,3,stable,Restaurant Service|F&B Service
+Housekeeping Operations,Tourism & Hospitality,3,stable,Hotel Housekeeping|Room Keeping
+Bakery & Confectionery,Tourism & Hospitality,4,stable,Baking|Pastry Making
+Cookery (Multi-Cuisine),Tourism & Hospitality,4,stable,Commercial Cooking|Kitchen Operations
+Heritage Walk Guiding,Tourism & Hospitality,4,stable,Tourist Guiding|Cultural Interpretation
+Event Management Basics,Tourism & Hospitality,4,moderate,Event Coordination|MICE Basics
+Media & Entertainment Production,Media & Entertainment,4,moderate,Video Production|Camera Operations
+Video Editing,Media & Entertainment,4,volatile,Post Production|Editing Suite Operations
+Graphic Design Basics,Media & Entertainment,4,moderate,Visual Design|DTP Operations
+Social Media Content Creation,Media & Entertainment,4,volatile,Content Creation|Reels Production
+Sound Recording Basics,Media & Entertainment,4,stable,Audio Engineering|Live Sound
+2D Animation Basics,Media & Entertainment,4,volatile,Motion Graphics|Animation Fundamentals
+Photography Operations,Media & Entertainment,3,stable,Camera Handling|Studio Photography
+Gems & Jewellery Basics,Gems & Jewellery,4,stable,Jewellery Manufacturing|Karigar Skills
+Stone Setting,Gems & Jewellery,4,stable,Gem Setting|Prong Setting
+Jewellery Design (CAD),Gems & Jewellery,5,volatile,CAD Jewellery Design|Digital Jewellery Design
+Handicrafts Production,Handicrafts,3,stable,Craft Production|Artisan Skills
+Leather Goods Making,Handicrafts,3,stable,Leather Craft|Leather Stitching
+Pottery & Ceramics,Handicrafts,3,stable,Ceramic Craft|Kumbharkar Skills
+Handloom Weaving,Handicrafts,3,stable,Traditional Weaving|Pit Loom Operation
+Bamboo Craft,Handicrafts,3,stable,Bamboo Artisan Skills|Bamboo Product Making
+Aromatic Plant Processing,Agriculture & Allied,4,moderate,Essential Oil Extraction|Attar Making
+Floriculture,Agriculture & Allied,3,stable,Flower Cultivation|Cut Flower Production
+Sericulture,Agriculture & Allied,3,stable,Silk Farming|Silkworm Rearing
+Apiculture,Agriculture & Allied,3,stable,Beekeeping|Honey Production
+Vermicomposting,Agriculture & Allied,3,stable,Compost Production|Organic Manure
+Water Testing Basics,Utilities,4,moderate,Water Quality Analysis|Potability Testing
+Water Pump Repair,Utilities,3,stable,Pump Maintenance|Motor Rewinding
+Solar Water Pump Systems,Utilities,4,moderate,SPV Pump Installation|Solar Pumping
+Waste Segregation & Recycling,Utilities,3,stable,SWM Operations|Recycling Operations
+E-Waste Handling,Utilities,4,moderate,E-Waste Dismantling|EWaste Management
+Rainwater Harvesting Systems,Utilities,4,stable,RWH Installation|Recharge Pit Construction
+Career Planning,General,3,stable,Career Development|Career Mapping
+Lifelong Learning Habits,General,3,stable,Self-Learning|Continuous Learning
+Safety in EV Workshops,Auto & EV,4,moderate,High Voltage Safety|EV Workshop Safety
+Automotive Painting,Auto & EV,3,stable,Vehicle Refinishing|Paint Booth Operations
+Two-Wheeler Repair,Auto & EV,3,stable,Scooter Motorcycle Repair|Two Wheeler Servicing
+Fleet Maintenance Planning,Auto & EV,4,moderate,Vehicle Maintenance Scheduling|Fleet O&M
+Garment Machine Maintenance,Textiles,4,moderate,SEWING Machine Repair|Sewing Machine Mechanic
+Yarn Testing,Textiles,4,moderate,Yarn Quality Testing|Spinning Lab
+Jute Product Making,Handicrafts,3,stable,Jute Craft|Jute Diversified Products
+Insurance Sector Basics,IT-ITeS,4,stable,Insurance Advisory|Bancassurance Basics
+Banking Correspondent Skills,IT-ITeS,4,stable,BC Sakhi|Business Correspondent Operations
+Digital Payments Facilitation,IT-ITeS,3,moderate,UPI Onboarding|Digital Financial Services
+E-Commerce Operations,IT-ITeS,4,moderate,Online Marketplace Selling|D2C Operations
+Telecalling,IT-ITeS,3,stable,Outbound Calling|Telemarketing
+Domestic BPO (Non-Voice),IT-ITeS,3,stable,Chat Process|Email Support
+GST Invoice Executives (Textile),Textiles,3,stable,Textile Billing|Trade Documentation
+Power Loom Maintenance,Textiles,4,moderate,Loom Mechanic|Textile Machinery Repair
+Industrial Housekeeping,Manufacturing,3,stable,Factory Housekeeping|5S Implementation
+Packing & Dispatch,Manufacturing,3,stable,Packaging Operations|Dispatch Operations
+Machine Operator (General),Manufacturing,3,stable,Production Machine Operation|Operator Skills
+Casting & Moulding Basics,Manufacturing,4,moderate,Foundry Operations|Die Casting
+Forging Operations,Manufacturing,4,moderate,Hot Forging|Press Forging
+Industrial Painting,Manufacturing,3,stable,Coating Operations|Surface Treatment
+NDT Basics,Manufacturing,4,moderate,Non Destructive Testing|Dye Penetrant Testing
+Calibration Techniques,Manufacturing,4,moderate,Instrument Calibration|Gauge Calibration
+ERP Data Operations,Manufacturing,4,moderate,SAP Data Entry|ERP Operations
+Production Planning Basics,Manufacturing,4,moderate,PPC|Production Scheduling
+Store & Material Control,Manufacturing,3,stable,Storekeeping|Goods Receipt
+Complaint Handling (Field),Logistics,3,stable,Field Service Support|Service Desk Field
+Two-Wheeler EV Repair,Auto & EV,4,moderate,E Scooter Repair|E Rickshaw Servicing
+Battery Swapping Operations,Auto & EV,4,volatile,Battery Swap Station Operations
+Driver Cum Delivery Partner,Logistics,3,stable,Delivery Driver|Bike Courier

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "ITI Welder → CNC Machinist",
+    "from_role": "ITI Welder (Entry)",
+    "to_role": "CNC Machinist",
+    "steps": [
+      {"n": 1, "title": "Precision measurement basics", "detail": "Vernier, micrometer, gauges", "course": "CNC Machining Basics", "kind": "course"},
+      {"n": 2, "title": "Machine operation practice", "detail": "Lathe + milling fundamentals", "course": "CNC Machining Basics", "kind": "course"},
+      {"n": 3, "title": "QC literacy", "detail": "Read drawings, tolerances, inspection", "course": "Quality Control for Shops", "kind": "course"},
+      {"n": 4, "title": "Prove it: metrology challenge", "detail": "Complete the 'Shop Floor Measurement' gauntlet", "course": "Shop Floor Measurement", "kind": "gauntlet"},
+      {"n": 5, "title": "G-code programming", "detail": "Write and simulate basic programs", "course": "CNC Programming (G-Code) Workshop", "kind": "course"},
+      {"n": 6, "title": "Live project", "detail": "Batch production with a partner MSME", "course": "CNC Production Live Project", "kind": "live_project"},
+      {"n": 7, "title": "Apply as CNC operator", "detail": "Target CNC openings on ExcelUp AI", "course": null, "kind": "apply"}
+    ]
+  },
+  {
+    "title": "EV Assembly Trainee → EV Service Technician",
+    "from_role": "EV Assembly Trainee",
+    "to_role": "EV Service Technician",
+    "steps": [
+      {"n": 1, "title": "High-voltage safety first", "detail": "Lockout, PPE, safe discharge", "course": "Industrial Documentation & 5S", "kind": "course"},
+      {"n": 2, "title": "Battery fundamentals", "detail": "Cells, packs, BMS basics", "course": "Battery Diagnostics Bootcamp", "kind": "course"},
+      {"n": 3, "title": "Diagnostics practice", "detail": "SoC/SoH, insulation, thermal", "course": "Battery Diagnostics Bootcamp", "kind": "course"},
+      {"n": 4, "title": "Prove it: battery diagnostics challenge", "detail": "Employer-reviewed challenge", "course": "EV Battery Diagnostics Challenge", "kind": "gauntlet"},
+      {"n": 5, "title": "Two-wheeler EV servicing", "detail": "Hands-on repair workflows", "course": "Two-Wheeler EV Servicing", "kind": "course"},
+      {"n": 6, "title": "Workplace readiness", "detail": "Interview + communication polish", "course": "Interview & Workplace Readiness", "kind": "course"},
+      {"n": 7, "title": "Apply to service centres", "detail": "Target EV service openings", "course": null, "kind": "apply"}
+    ]
+  },
+  {
+    "title": "Retail Associate → Store Supervisor",
+    "from_role": "Retail Sales Associate",
+    "to_role": "Store Supervisor",
+    "steps": [
+      {"n": 1, "title": "Core selling skills", "detail": "Counter + customer service", "course": "Retail Sales Excellence", "kind": "course"},
+      {"n": 2, "title": "POS & billing mastery", "detail": "Daily cash discipline", "course": "Retail Sales Excellence", "kind": "course"},
+      {"n": 3, "title": "Inventory basics", "detail": "Stock counts, shrinkage control", "course": "Warehouse Operations & Inventory", "kind": "course"},
+      {"n": 4, "title": "Communication upgrade", "detail": "Shift briefings, escalation writing", "course": "Workplace Communication Essentials", "kind": "course"},
+      {"n": 5, "title": "Data basics", "detail": "Sales tracker reading, spreadsheets", "course": "Data Analysis with Spreadsheets", "kind": "course"},
+      {"n": 6, "title": "Apply for supervisor openings", "detail": "Retail supervisor roles on ExcelUp AI", "course": null, "kind": "apply"}
+    ]
+  }
+]
